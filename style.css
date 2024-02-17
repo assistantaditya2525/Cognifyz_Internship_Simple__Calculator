@@ -1,0 +1,119 @@
+/* Basic styling for the calculator */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8338ec;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    background-color: #d2b5fa;
+    margin-left: 35%;   
+    margin-top: 12%;
+    height: 60vh;
+    width: 40%;
+    border-radius: 25px;
+    /* border: 4px solid red; */
+
+}
+
+.input label {
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input input {
+
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+/* #num1{
+    margin: 20px;
+  } */
+button {
+    background-color: gray;
+    height: 40px;
+    width: 160px;
+    font-size: 17px;
+    margin: 40px;
+    margin-top: 10px;
+    margin-left: 110px;
+    border-radius: 10px;
+
+
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#num1 {
+    margin-top: 50px;
+}
+#result {
+    margin-left: 155px;
+    margin-top: 4px;
+    font-size: 1.2rem;
+
+}
+
+.Result {
+    display: flex;
+    margin-left: 220px;
+    width: 250px;
+    border-radius: 10px;
+    height: 30px;
+    border: 2px solid black;
+    background-color: white;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Result label {
+    margin-top: 6px;
+    margin-left: -95px;
+}
+
+@media (max-width: 1140px) {
+
+    #result {
+        margin-left: 96px;
+        margin-top: 4px;
+        font-size: 1.2rem;
+
+    }
+
+    .Result {
+        display: flex;
+        margin-left: 90px;
+        width: 190px;
+        border-radius: 10px;
+        height: 30px;
+        border: 2px solid black;
+        background-color: white;
+
+        /* flex-flow: row; */
+    }
+
+    .Result label {
+        margin-top: 6px;
+        margin-left: -65px;
+    }
+
+    /* … */
+}
